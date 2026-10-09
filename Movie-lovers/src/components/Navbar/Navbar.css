@@ -1,0 +1,66 @@
+.movie-nav {
+  transition: background 0.4s ease, padding 0.3s ease, box-shadow 0.3s ease;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.nav-scrolled {
+  background: rgba(15, 15, 26, 0.92) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(108, 99, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-logo-icon {
+  width: 28px;
+  height: 28px;
+  color: var(--primary);
+}
+
+.toggler-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.nav-hero-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.nav-pill-link {
+  color: rgba(203, 213, 225, 0.85) !important;
+  font-size: 0.9rem;
+  transition: all 0.25s ease;
+}
+
+.nav-pill-link:hover,
+.nav-pill-link.active-link {
+  color: #fff !important;
+  background: rgba(108, 99, 255, 0.18) !important;
+}
+
+.nav-icon-btn {
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgba(108, 99, 255, 0.3);
+  color: rgba(203, 213, 225, 0.8);
+  transition: all 0.25s ease;
+}
+
+.nav-icon-btn:hover {
+  color: #fff;
+  border-color: var(--primary);
+  background: rgba(108, 99, 255, 0.18);
+}
+
+@media (max-width: 991px) {
+  .movie-nav { background: rgba(15, 15, 26, 0.96) !important; }
+  .navbar-collapse {
+    border-top: 1px solid rgba(108, 99, 255, 0.15);
+    padding-top: 16px;
+    margin-top: 12px;
+  }
+}

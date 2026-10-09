@@ -1,0 +1,36 @@
+.footer-section {
+  background: linear-gradient(180deg, #1a1a2e 0%, #0f0f1a 100%);
+  border-top: 1px solid rgba(108, 99, 255, 0.15);
+  position: relative;
+  overflow: hidden;
+  margin-top: 4rem;
+}
+
+.footer-blob {
+  width: 400px;
+  height: 400px;
+  background: rgba(108, 99, 255, 0.08);
+  bottom: -100px;
+  right: -100px;
+}
+
+.footer-logo-icon {
+  width: 28px;
+  height: 28px;
+  color: var(--primary);
+}
+
+.footer-link {
+  color: var(--text-muted-custom);
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: var(--primary-light);
+}
+
+.footer-divider {
+  border-color: rgba(108, 99, 255, 0.15);
+  margin: 0;
+}
