@@ -9,8 +9,6 @@ A modern movie discovery app built with React, Redux Toolkit, and Bootstrap. Bro
 ### Home
 ![Home](./Movie-lovers/src/assets/home.png)
 
-### Hero Section
-![Hero](./Movie-lovers/src/assets/hero.png)
 
 ### Popular Movies
 ![Popular](./Movie-lovers/src/assets/popular.png)
